@@ -10,8 +10,8 @@ spec:
         app: adwDemoApp
     spec:
       containers:
-        - name: kubernetes-demo-container
-          image: hcwxd/kubernetes-demo
+        - name: adw-demo-container
+          image: iad.ocir.io/idbj8ixgg36y/docker/adw-demo:v1.0.0
           ports:
             - containerPort: 80
   selector:
