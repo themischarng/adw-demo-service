@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: adw-demo-container
-          image: iad.ocir.io/idbj8ixgg36y/docker/adw-demo:v1.0.0
+          image: iad.ocir.io/idbj8ixgg36y/docker/adw-demo:v1.0.1
           ports:
             - containerPort: 80
   selector:
