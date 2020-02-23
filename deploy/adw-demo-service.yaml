@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: adw-demo-service
+spec:
+  selector:
+    app: adwDemoApp
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 80
+      nodePort: 30390

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: adw-demo-pod
+  labels:
+    app: adwDemoApp
+spec:
+  containers:
+    - name: adw-demo-container
+      image: iad.ocir.io/idbj8ixgg36y/docker/adw-demo:v1.0.0
+      ports:
+        - containerPort: 80

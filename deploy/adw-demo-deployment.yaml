@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adw-demo-deployment
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: adwDemoApp
+    spec:
+      containers:
+        - name: kubernetes-demo-container
+          image: hcwxd/kubernetes-demo
+          ports:
+            - containerPort: 80
+  selector:
+    matchLabels:
+      app: adwDemoApp
