@@ -5,7 +5,7 @@ import "./App.css";
 import { Table } from "react-bootstrap";
 
 const API_URL =
-  "https://xsrzrcryliwt908-adw.adb.us-ashburn-1.oraclecloudapps.com/ords/citurria/CS_Master/";
+  "https://xsrzrcryliwt908-adw.adb.us-ashburn-1.oraclecloudapps.com/ords/citurria/CS_MASTER/";
 
 const fetchHeader = new Headers();
 fetchHeader.append("Authorization", "Basic Y2l0dXJyaWE6V2VsY29tZTEyMzQ1");
@@ -62,15 +62,15 @@ function App() {
                   <td>{item.CS_IDNO}</td>
                   <td>{item.CS_CARDNO}</td>
                   <td>{item.CS_CASETYPE}</td>
-				  <td>{item.CS_RESULT}</td>
-				  <td>{item.CS_FINISHDATE}</td>
-				  <td>{item.CS_USERID}</td>
-				  <td>{item.CS_CDFLAG}</td>
-				  <td>{item.CS_UCALL}</td>
-				  <td>{item.CS_ECDATE}</td>
-				  <td>{item.CS_REPLY}</td>
-				  <td>{item.CS_REPLY_PHONE}</td>
-				  <td>{item.DATA_SRC_DT}</td>
+		  <td>{item.CS_RESULT}</td>
+		  <td>{item.CS_FINISHDATE}</td>
+		  <td>{item.CS_USERID}</td>
+		  <td>{item.CS_CDFLAG}</td>
+		  <td>{item.CS_UCALL}</td>
+		  <td>{item.CS_ECDATE}</td>
+		  <td>{item.CS_REPLY}</td>
+		  <td>{item.CS_REPLY_PHONE}</td>
+		  <td>{item.DATA_SRC_DT}</td>
                 </tr>
               );
             }
