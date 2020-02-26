@@ -5,7 +5,7 @@ import "./App.css";
 import { Table } from "react-bootstrap";
 
 const API_URL =
-  "https://xsrzrcryliwt908-adw.adb.us-ashburn-1.oraclecloudapps.com/ords/citurria/CS_MASTER/";
+  "https://xsrzrcryliwt908-adw.adb.us-ashburn-1.oraclecloudapps.com/ords/citurria/cs_master/";
 
 const fetchHeader = new Headers();
 fetchHeader.append("Authorization", "Basic Y2l0dXJyaWE6V2VsY29tZTEyMzQ1");
