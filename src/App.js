@@ -57,20 +57,20 @@ function App() {
             {
               return (
                 <tr key={`item-${index}`}>
-                  <td>{item.CS_DATE}</td>
-                  <td>{item.CS_SEQNO}</td>
-                  <td>{item.CS_IDNO}</td>
-                  <td>{item.CS_CARDNO}</td>
-                  <td>{item.CS_CASETYPE}</td>
-		  <td>{item.CS_RESULT}</td>
-		  <td>{item.CS_FINISHDATE}</td>
-		  <td>{item.CS_USERID}</td>
-		  <td>{item.CS_CDFLAG}</td>
-		  <td>{item.CS_UCALL}</td>
-		  <td>{item.CS_ECDATE}</td>
-		  <td>{item.CS_REPLY}</td>
-		  <td>{item.CS_REPLY_PHONE}</td>
-		  <td>{item.DATA_SRC_DT}</td>
+                 <td>{item.cs_date}</td>
+                  <td>{item.cs_seqno}</td>
+                  <td>{item.cs_idno}</td>
+                  <td>{item.cs_cardno}</td>
+                  <td>{item.cs_casetype}</td>
+		  <td>{item.cs_result}</td>
+		  <td>{item.cs_finishdate}</td>
+		  <td>{item.cs_userid}</td>
+		  <td>{item.cs_cdflag}</td>
+		  <td>{item.cs_ucall}</td>
+		  <td>{item.cs_ecdate}</td>
+		  <td>{item.cs_reply}</td>
+		  <td>{item.cs_reply_phone}</td>
+		  <td>{item.data_src_dt}</td>
                 </tr>
               );
             }
